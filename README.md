@@ -1,2 +1,3 @@
 # 30-days-JS-challenge
-with Chai Aur Code.
+Today I accepted the Challenge of 30 days JS with a course of Chai Aur Code.
+On each day I will make a folder, do the challenge and will push the code and readme of that day.
