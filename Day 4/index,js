@@ -1,0 +1,91 @@
+// Day 4 - Loops
+
+//Activity 1 - For Loop
+//task 1
+console.log('task 1 - Print numbers from 1 to 10')
+for (let i = 1; i < 11; i++) {
+    console.log(i + " ")
+}
+//task 2
+console.log('task 2 - Print multiplication table of 5')
+for(let i = 1;i<11;i++)
+{
+    console.log("5 * "+i+" = "+5*i)
+}
+
+//Activity 2 - While Loop
+//task 3
+console.log('task 3 - sum of numbers from 1 to 10')
+let i = 1
+let sum = 0
+while(i<11)
+{
+ sum += i
+ i++
+}
+console.log(sum)
+//task 4
+console.log('task 1 - Print numbers from 10 to 1')
+let j = 10
+while(j>0)
+{
+    console.log(j)
+    j--
+}
+
+//Activity 3 - Do... While Loop
+//task 5
+console.log('task 5 - Print numbers from 1 to 5')
+let k = 1
+do{
+    console.log(k)
+    k++
+}while(k<6)
+//task 6
+console.log('task 6 - factorial of 7')
+let b = 7
+let fact = 1
+do{
+    fact *= b
+    b--
+}while(b>0)
+console.log(fact)
+
+//Activity 4 - Nested Loops
+//task 7
+console.log('task 7 - Print a pattern')
+let p = "";
+for(let i = 0;i<5;i++)
+{
+    for(let j = 0;j<=i;j++)
+    {
+        p +="* "
+    }
+    p += "\n"
+}
+console.log(p);
+
+
+//Activity 5 - Loop Control Statements
+//task 8
+console.log('task 8 - Print numbers from 1 to 10 except 5')
+
+for (let i = 1; i < 11; i++) {
+    if(i == 5)
+    {
+        continue
+    }
+    console.log(i + " ")
+}
+//task 9
+console.log('task 9 - Print numbers from 1 to 10 but stop the when number is 7')
+for (let i = 1; i < 11; i++) {
+    if(i == 7)
+    {
+        break
+    }
+    console.log(i + " ")
+}
+
+console.log('-----END OF DAY 4-----');
+//End of Day 4 - Loops
