@@ -55,7 +55,7 @@ function multiply(a, b = 5) {
 console.log("task 7 : " + multiply(3, 4));
 console.log("task 7 : " + multiply(3));
 //task 8
-console.log('task 8 : ');
+console.log("task 8 : ");
 
 function greeting(name, age = 20) {
   return "Hello " + name + " you are " + age + " years old";
@@ -88,7 +88,7 @@ function func1(x) {
 function func2(x) {
   return x * 2;
 }
-twoFunc(func1, func2, 5);
+twoFunc(func1, func2, 5); 
 
-console.log("-------END OF DAY 5-------");
+console.log("-------END OF DAY 5-------"); 
 //End of Day 5
