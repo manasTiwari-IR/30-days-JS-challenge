@@ -34,7 +34,7 @@ console.log(book);
 
 //Activity 3 - Nested Objects
 //task 5
-const lib =  {
+const lib = {
   name: "Library of Books",
   books: [
     {
