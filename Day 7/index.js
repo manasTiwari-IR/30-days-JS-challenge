@@ -86,4 +86,5 @@ console.log(Object.keys(b));
 console.log(Object.values(b));
 
 console.log("-------END OF DAY 7--------");
+
 //End of Day 7 - Objects
