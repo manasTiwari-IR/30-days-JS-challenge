@@ -27,4 +27,23 @@ rem2.remove();
 
 //Activity 4 - Modifying Attributes and Classes
 //task 7
- 
+setInterval(() => {
+let img = document.querySelector('img').setAttribute('src', 'https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png');
+}, 3000);
+//task 8
+document.querySelector('.box3').classList.add('teal');
+document.querySelector('.box2').classList.add('teal');
+document.querySelector('.box2').classList.remove('teal');
+
+//Activity 5 - Event Listeners
+//task 9
+document.querySelector('button').addEventListener('click', () => {
+    document.querySelector('p').innerText = 'Button Clicked!';
+});
+//task 10
+document.querySelector('.box4').querySelector('h2').addEventListener('mouseover', () => {
+    document.querySelector('.box4').querySelector('h2').style.border = '2px solid green';
+}   );
+
+console.log('--------End of Day 9--------');
+//End of Day 9
