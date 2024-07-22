@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Handling</title>
+</head>
+<style>
+    body {
+        background-color: rgb(39, 38, 38);
+        color: yellowgreen;
+        font-size: 17px;
+    }
+
+    .hide {
+        visibility: hidden !important;
+    }
+
+    .orange {
+        background-color: orange !important;
+        color: black;
+        transition: all 0.1s ease;
+    }
+
+    .act3 p {
+        border: 1px solid yellowgreen;
+    }
+</style>
+
+<body>
+
+    <div class="task12">
+        <button>Task 1</button>
+        <p>Click to change content</p>
+        <img src="https://via.placeholder.com/200x200" class="image" style="cursor: pointer;visibility: visible;"
+            alt="...">
+    </div>
+    <hr>
+    <div class="act2" style="width: 300px;height: 50px;background-color: green;">Mouseover and Mouseout events</div>
+    <hr>
+    <div class="act3">
+        <h4>Keydown and Keydown Event</h4>
+        <input type="text" placeholder="type here">
+        <p></p>
+    </div>
+    <hr>
+    <form id="aform">
+        <input type="text" placeholder="Enter your name" id="name" required>
+        <input type="email" id="email" placeholder="Enter your email" required>
+        <button type="submit">Submit</button>
+    </form>
+    <hr>
+    <form>
+        <select name="langauge" id="langauge">
+            <option value="c++">C++</option>
+            <option value="java">Java</option>
+            <option value="python">Python</option>
+            <option value="javascript">Javascript</option>
+            <option value="php">PHP</option>
+            <option value="ruby">Ruby</option>
+        </select>
+    </form>
+    <p id="result"></p>
+    <script src="script.js"></script>
+</body>
+
+</html>
