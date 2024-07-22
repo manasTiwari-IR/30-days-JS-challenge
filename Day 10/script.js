@@ -57,13 +57,23 @@ f.addEventListener("submit", (e) => {
 });
 //task 8 - change event
 document.addEventListener('DOMContentLoaded', (event) => {
-  const y = document.getElementById('language');
+  const y = document.getElementById('code');
   const r = document.getElementById('result');
   if (y && r) { // Check if both elements exist
     y.addEventListener('change', (e) => {
       r.innerText = y.value;
     });
-  } else {
-    console.log('One or more elements not found');
+  } else if(y) {
+    console.log('Result element not found');
+  }
+  else if (r) {
+    console.log('Language element not found');
   }
 });
+
+document.querySelector('.act5').addEventListener('click', (e) => {
+  console.log(e.target.innerText)
+});
+
+console.log('-------END Of DAY 10-------');
+//End of Day 10
