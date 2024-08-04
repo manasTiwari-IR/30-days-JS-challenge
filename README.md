@@ -1,3 +1,13 @@
-# 30-days-JS-challenge
-Today I accepted the Challenge of 30 days JS with a course of Chai Aur Code.
-Each day I will make a folder, do the challenge and will push the code and readme of that day to my Github.
+<h1 align="center">30 Days of JavaScript Challenge</h1>
+<p align="center"> <img src="template.png" width="540px" height="300px"> </p>
+<p align="center" >Github Lens is a Github Profile Viewer which uses <b>Github API</b> to display user's name, avatar, bio, etc., and represent it in a form of card.</p>
+
+#### **Visit the website** : https://github-lens-git-main-manastiwari-irs-projects.vercel.app
+## **Tech Stack**
+* **HTML**
+* **CSS**
+* **JAVASCRIPT**
+* **VITE**
+
+## **License**
+This project is licensed under the MIT License.
