@@ -13,6 +13,7 @@ function outerFunction() {
   };
 }
 const func = outerFunction();
+console.log(func)
 console.log(func.innerFunction());
 //task 2
 console.log("Task 2");
